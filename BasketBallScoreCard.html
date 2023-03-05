@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="BasketBallScoreCard">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>BassketBallScoreCard</title>
+    <link rel="stylesheet" href="BasketBallScoreCard.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div>
+            <h3 class="main-heading">HOME</h3> 
+            
+            <div id="homeBoard" class="board">0</div>
+               
+            <div>
+                <button id="hb-btn1" class="score-button" onclick="hbincrement1()" > +1 </button>
+                <button id="hb-btn2" class="score-button" onclick="hbincrement2()"> +2 </button>
+                <button id="hb-btn3" class="score-button" onclick="hbincrement3()"> +3 </button>
+            </div>
+            <div> <button id="reset" onclick="reset1()"> RESET </button> </div>
+        </div>
+
+        <div>
+            <h3 class="main-heading">GUEST</h3>
+
+            <div id="guestBoard" class="board">0</div>
+            
+            <div>
+                <button id="gb-btn1" class="score-button" onclick="gbincrement1()"> +1 </button>
+                <button id="gb-btn2" class="score-button" onclick="gbincrement2()"> +2 </button>
+                <button id="gb-btn3" class="score-button" onclick="gbincrement3()" > +3 </button>
+            </div>
+            <div> <button id="reset" onclick="reset2()"> RESET </button> </div>
+        </div>
+        
+    </div>
+    
+    
+<script src="BasketBallScoreCard.javascript"></script>
+        
+</body>
+</html>
